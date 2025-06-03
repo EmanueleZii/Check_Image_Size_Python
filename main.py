@@ -2,9 +2,9 @@ import os
 from PIL import Image
 
 # Cambia il percorso alla cartella delle immagini e al file di output
-folder_path = "C:/xampp/htdocs/microesd/img/"
+folder_path = "C:/La_cartella_piena_di_immagini"
 input(f"cartella da scansionare:\n {folder_path}");
-output_file = "C:/Users/utente/OneDrive/Desktop/log/output.txt"
+output_file = "C:/Users/utente/La_Cartella_in_cui_vuoi_il_file_txt"
 input(f"cartella per il file log delle scansioni: \n {output_file}")
 
 def check_image_size(folder_path, output_file):
